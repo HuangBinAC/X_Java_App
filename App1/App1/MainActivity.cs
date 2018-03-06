@@ -56,7 +56,9 @@ namespace App1
 
             Analytics.TrackEvent("Video clicked", new Dictionary<string, string> {
                 { "Category", "Music" },
-                { "FileName", "favorite.avi"}
+                { "FileName", "favorite.avi"},
+                { "TongDaWei", "boy next door"},
+                { "Van", "do you like Van 游戏?"}
 
             });
 
